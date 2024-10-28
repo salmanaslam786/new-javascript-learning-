@@ -24,3 +24,5 @@ console.log(typeof "salman");
 console.log(typeof undefined); // output = undefined 
 console.log(typeof null);  // object 
 
+console.log(typeof age);
+
