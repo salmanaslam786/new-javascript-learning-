@@ -1,2 +1,2 @@
-# new-javascript-learning-
-a new repo for javascript write and learining purposes 
+# javascript-learning-making projects
+a new repo for javascript writing and learning purposes 
