@@ -27,3 +27,42 @@ let stringNumber = String(someNumber);
 
 console.log(stringNumber);
 console.log(typeof stringNumber);
+
+
+// Data type summary 
+
+// 1 permitive 
+
+// 7 types : string, Number, Boolean, null, undefined, symbol, BigInt
+
+// javascript is straitically type or dynamically type language
+
+const score1 = 100
+const scoreValue = 100.3
+
+const isLoggedIn1 = false 
+const outsideTemp = null 
+let userEmail;
+
+const id = Symbol("123")
+const anotherId = Symbol("123")
+
+console.log(id == anotherId);
+
+const bigNumber = 35216486612186828615n
+
+
+// 2 Reference (Non permitive) 
+
+// Array, Objects, Functions
+// Arrays
+const heros = ["Quaide-Azam", "Alama-Iqbal", "Dr.Israr"];
+// Objects
+let myObj = {
+    name: "salman",
+    age: 29,
+}
+// Functions
+const myfunction = function(){
+    console.log("Hellow world!");
+}
