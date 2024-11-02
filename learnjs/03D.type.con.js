@@ -66,3 +66,32 @@ let myObj = {
 const myfunction = function(){
     console.log("Hellow world!");
 }
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// memory 
+
+// stack(permitive), Heap  (Non-Permitive)
+
+let myYoutubename = "salmanldhr"; 
+
+let anothername = myYoutubename
+
+anothername = "noumanldhr";
+
+console.log(anothername);
+
+// when we take the value from stack memory we get a copy 
+// but from heap we get originol value
+
+let userOne = {
+    email: "salmanldhr",
+    jazzcash: "308"
+}
+
+let userTwo = userOne 
+
+userTwo.email = 'salman@google.com'
+
+console.log(userOne.email);
+console.log(userTwo.email);
