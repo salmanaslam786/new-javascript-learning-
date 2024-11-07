@@ -1,5 +1,5 @@
 const name = "salman"
-const repoCount = 05 
+const repoCount = 5 
 
 // how to concatinate these 
 //console.log(name + repoCount + " value");
