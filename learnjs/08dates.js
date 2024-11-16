@@ -24,10 +24,7 @@ let newDate = new Date();
 log(newDate.getMonth() + 1);
 
 
-//let dateTime = newDate.toLocaleString("default", {
-    weekday: "long", 
-    
-})
+//let dateTime = newDate.toLocaleString("default", {weekday: "long",})
 //log(dateTime.toLocaleString());
 
 newDate.toLocaleString("default", {
