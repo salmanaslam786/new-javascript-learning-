@@ -5,3 +5,9 @@
 
 // object literals 
 
+const JsUser = {
+    name: "Salman",
+    email: "Salmanldhr@gmail.com",
+    dateofbirth: 11-3-1995,
+    mysym:  "mykeys1"
+}
