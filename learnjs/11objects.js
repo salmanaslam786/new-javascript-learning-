@@ -15,4 +15,5 @@ const JsUser = {
     mysym:  "mykeys1"
 }
 
-console.log(JsUser);
+console.log(JsUser.email);
+//console.log(JsUser);
