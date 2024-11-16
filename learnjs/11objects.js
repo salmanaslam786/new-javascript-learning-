@@ -7,7 +7,12 @@
 
 const JsUser = {
     name: "Salman",
+    age: 30,
+    location: "Lodhran",
     email: "Salmanldhr@gmail.com",
-    dateofbirth: 11-3-1995,
+    isLoggedIn: false,
+    lastLoggedinDays: ["Monday", "Saturday"],
     mysym:  "mykeys1"
 }
+
+console.log(JsUser);
